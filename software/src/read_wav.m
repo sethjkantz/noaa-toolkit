@@ -17,5 +17,5 @@ function [data, freq, success] = read_wav()
     else
         disp('No file selected.');
     end   
-
+    % todo only use stereo?
 end
